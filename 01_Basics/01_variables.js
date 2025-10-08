@@ -14,6 +14,9 @@ var has function scope, let and const have block scope*/
 pincode= "12345" // Not recommended, creates a global variable which can be overwritten anywhere in the code
 pincode= "67890"
 
+let name; // Declaration
+console.log(name) // Output: undefined
+
 // Print all variables in table format
 
 console.table([id, email, city, pincode])// Passing array of primitives...not very useful. Better to use objects or arrays of objects
