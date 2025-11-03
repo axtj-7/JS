@@ -18,5 +18,6 @@ let booleanLoggedIn= Boolean(loggedIn) //explicit conversion
 console.log(booleanLoggedIn) //true
 
 // 1=> true
+// any string other than "" => true
 // NaN => false
 // 0, "", null, undefined => false

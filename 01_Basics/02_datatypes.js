@@ -19,7 +19,7 @@ console.log(undefined) // undefined means a variable has been declared but not y
 // string=> "" or '' 
 // number=> 2^53
 // boolean=> true or false
-// null=> staandalone value
+// null=> standalone value
 // undefined=> Variable that is not initialised
 // symbol=> used to create unique identifiers
 */
