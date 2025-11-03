@@ -14,7 +14,7 @@ let name2='Ajay' // Both double and single quotes are allowed for strings
 console.log(null)// null is an object. It is an assignment value that represents no value
 console.log(undefined) // undefined means a variable has been declared but not yet assigned a value
 
-//Dattypes in JS:
+//Datatypes in JS:
 /* Primitive: 
 // string=> "" or '' 
 // number=> 2^53
@@ -22,8 +22,9 @@ console.log(undefined) // undefined means a variable has been declared but not y
 // null=> standalone value
 // undefined=> Variable that is not initialised
 // symbol=> used to create unique identifiers
+// bigint=> for very large integers
 */
-/* Non-primitive: object (arrays, functions, etc.)*/
+/* Non-primitive(Reference type): object, arrays, functions, etc.*/
 
 console.log(typeof name1) // string
 console.log(typeof 123) // number
@@ -31,3 +32,10 @@ console.log(typeof 45.67) // number
 console.log(typeof true) // boolean
 console.log(typeof null) // object (bug in JS, should be null)
 console.log(typeof undefined) // undefined
+
+const id= Symol("123") // unique identifier
+const id2= Symbol("123")
+
+console.log(id===id2) // false (symbols are unique even if they have the same description)
+
+const bigIntNum= 123456781234567890n // n in the end denotes bigint
